@@ -14,7 +14,9 @@ const fs = require('fs');
 const publicDir = path.join(__dirname, 'public');
 const contentTypes = {
     '.html': 'text/html; charset=utf-8',
-    '.json': 'application/json; charset=utf-8'
+    '.json': 'application/json; charset=utf-8',
+    '.css': 'text/css; charset=utf-8',
+    '.js': 'application/javascript; charset=utf-8'
 }
 
 const routes = {
@@ -25,7 +27,7 @@ const routes = {
 function readFile(response, file) {
     fs.readFile(file, function(err, data){
         if (err) {
-            response.writeHead(404, {'Conten-Type': 'text/html; charset=utf-8'});
+            response.writeHead(404, {'Content-Type': 'text/html; charset=utf-8'});
             return fs.createReadStream(
                 path.join(publicDir, 'erro404.html')
             ).pipe(response);

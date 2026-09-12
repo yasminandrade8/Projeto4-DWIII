@@ -1,0 +1,30 @@
+:root {
+    --cor-escura: #1f1f1f;
+}
+
+.erro404 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--cor-escura);
+    color: white;
+}
+
+.erro404 h1 {
+    margin: 0;
+    font-size: 140px;
+    color: #e53935;
+}
+
+.erro404 p {
+    margin: 10px 0 25px;
+    font-size: 1.2rem;
+}
+
+.erro404 a {
+    color: white;
+}
+
