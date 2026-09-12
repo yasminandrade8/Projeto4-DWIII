@@ -1,0 +1,20 @@
+{
+  "name": "ex04",
+  "version": "1.0.0",
+  "description": "exercicio 4",
+  "homepage": "https://github.com/yasminandrade8/Projeto4-DWIII#readme",
+  "bugs": {
+    "url": "https://github.com/yasminandrade8/Projeto4-DWIII/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasminandrade8/Projeto4-DWIII.git"
+  },
+  "license": "ISC",
+  "author": "Yasmin Andrade",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
