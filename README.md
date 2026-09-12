@@ -26,23 +26,30 @@ Este repositório contém a resolução de quatro exercícios práticos da disci
 
 ### Passo a Passo
 
-```bash
-# 1. Clone este repositório
-$ git clone [https://github.com/yasminandrade8/Projeto4-DWIII.git](https://github.com/yasminandrade8/Projeto4-DWIII.git)
 
-# 2. Navegue até a pasta raiz do projeto
-$ cd Projeto4-DWIII
+**1. Clone este repositório**
+  ```bash
+  $ git clone [https://github.com/yasminandrade8/Projeto4-DWIII.git](https://github.com/yasminandrade8/Projeto4-DWIII.git)
+  ```
+**2. Navegue até a pasta raiz do projeto**
+  ```bash
+  $ cd Projeto4-DWIII
+  ```
+**3. Para executar os exercícios, acesse a pasta correspondente e rode o comando:**
 
-# 3. Para executar os exercícios, acesse a pasta correspondente e rode o comando:
-
-# Exercício 01
-$cd ex01$ node index.js
-
-# Exercício 02
-$cd ../ex02$ npm start
-
-# Exercício 03
-$cd ../ex03$ node app.js
-
-# Exercício 04
-$cd ../ex04$ node app_2.js
+Exercício 01
+  ```bash
+  $cd ex01$ node index.js
+  ```
+Exercício 02
+  ```bash
+  $cd ../ex02$ npm start
+  ```
+Exercício 03
+  ```bash
+  $cd ../ex03$ node app.js
+  ```
+Exercício 04
+  ```bash
+  $cd ../ex04$ node app_2.js
+  ```
